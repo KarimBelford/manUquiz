@@ -98,6 +98,9 @@ let questions = [
     new Question(
         "What is the name of Manchester United home stadium?", ["Wembley", "Emptyhad","Old Trafford", "Camp Nou"], "Old Trafford"
     ),
+    new Question(
+        "When did Manchester United last win the Premier League", ["2010", "2009","2017", "2012"], "2012"
+    ),
 ]
 
 let quiz = new Quiz(questions);
