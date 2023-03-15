@@ -101,6 +101,9 @@ let questions = [
     new Question(
         "When did Manchester United last win the Premier League", ["2010", "2009","2017", "2012"], "2012"
     ),
+    new Question(
+        "When did Manchester United last win the Champion's League", ["2014", "2009","2000", "2008"], "2008"
+    ),
 ]
 
 let quiz = new Quiz(questions);
